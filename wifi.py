@@ -4,9 +4,9 @@ import requests
 import re
 import time
 #
-USER_ACCOUNT='02502233374'
+USER_ACCOUNT='11111111'
 DOMAIN_SELECTION='Unicom'#这是中国联通
-USER_PASSWATD='233374'
+USER_PASSWATD='1111111'
 
 #登录地址
 post_addr="http://a.nuist.edu.cn/index.php/index/login"
