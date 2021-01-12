@@ -82,5 +82,5 @@ if  __name__ == '__main__':
         login_nuist.post()
         print('network reconnected success')
         if len(sckey) > 0:
-            login_nuist.send_message(text = 'network becomes ok',
+            login_nuist.send_message(text = 'network reconnected',
                                     desp = 'done')
