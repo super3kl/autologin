@@ -3,7 +3,7 @@
  * @LastEditors: zyc
 -->
 # 自动登录Nuist校园网 & 断网自动重连并发送消息至微信
-# Star
+# 谢谢Star
 本python脚本自动登录部分借鉴了[校园网自动登录](https://blog.csdn.net/shenhuaifeng/article/details/78333851)
 # 说明
 1. USER_ACCOUNT内填自己账号，
