@@ -4,7 +4,7 @@ Date: 2021-01-12 09:32:14
 LastEditTime: 2021-01-12 21:27:18
 LastEditors: zyc
 Description: log in INuist and send message to wechat
-FilePath: ip/login.py
+FilePath: login.py
 '''
 import base64
 import requests
