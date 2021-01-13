@@ -11,3 +11,7 @@
 3. USER_PASSWATD填入密码
 4. 如需微信推送重连信息 则需填入sckey 此服务由[server酱提供](http://sc.ftqq.com/3.version),注册获取sckey
 5. 设定定时任务 linux参考[crontab](https://www.runoob.com/linux/linux-comm-crontab.html)。可设置为每分钟运行一次ligin.py
+
+
+#更新日志
+2021.1.13，增加获取电脑ip功能
