@@ -70,7 +70,10 @@ class logInNuist:
         requests.get(content)
         print('sending message is done')
         
-
+    def get_ip_add(self):
+        ip = requests.get('http://a.nuist.edu.cn/').text[3297:3314]
+        print('your ip is ',ip)
+        self.send_message(text=ip,desp=ip)
 
 if  __name__ == '__main__':
 
@@ -84,3 +87,4 @@ if  __name__ == '__main__':
         if len(sckey) > 0:
             login_nuist.send_message(text = 'network reconnected',
                                     desp = 'done')
+            login_nuist.get_ip_add()
